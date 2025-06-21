@@ -37,15 +37,17 @@ const toggleNavbar =()=> {
                         </li>
                     </ul>
                 </div>
-                    <div className="lg:hidden md:flex flex-col justify-end">
+                    <div className="lg:hidden p-0 md:flex flex-col justify-end">
                        <button onClick={toggleNavbar}>
                            {mobileDrawerOpen ? <X/>: <Menu/>}
                        </button>
                    </div>
              </div>
-              {mobileDrawerOpen && (
+ 
+        </div>
+                     {mobileDrawerOpen && (
                 <div className="fixed   bg-black/10 backdrop-blur w-full flex flex-col justify-center lg:hidden">
-                    <ul className="flex flex-col items-center"> 
+                    <ul className="flex flex-col items-center gap-2"> 
                        <li>
                             <a href="#">Home</a>
                         </li>
@@ -61,7 +63,6 @@ const toggleNavbar =()=> {
                     </ul> 
                 </div>
             )}
-        </div>
     </div>
     
   )
