@@ -45,7 +45,7 @@ const toggleNavbar =()=> {
              </div>
  
         </div>
-                     {mobileDrawerOpen && (
+         {mobileDrawerOpen && (
                 <div className="fixed   bg-black/10 backdrop-blur w-full flex flex-col justify-center lg:hidden">
                     <ul className="flex flex-col items-center gap-2"> 
                        <li>
