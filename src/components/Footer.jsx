@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaFacebook, FaInstagram } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa6'
 import { HiLocationMarker } from 'react-icons/hi'
 import { MdCall, MdMessage } from 'react-icons/md'
 
@@ -77,10 +79,24 @@ const Footer = () => {
                 </div>
             </div>
             {/* Bottom */}
-            <div className='hidden sm:block'>
-                <div>
+            <div className=' sm:block'>
+                <div className='flex justify-between items-center py-6 border-t-2 border-gray-400'>
                     <span className='text-sm text-gray-400'>
                         Copyright &copy; 2025.
+                    </span>
+                    <div className='flex items-center justify-center gap-4 pb-4 '>
+                        <a href="#">
+                            <FaInstagram className='text-4xl'/>
+                        </a>
+                        <a href="#">
+                            <FaFacebook className='text-4xl'/>
+                        </a>
+                        <a href="#">
+                            <FaLinkedin className='text-4xl'/>
+                        </a>
+                    </div>
+                    <span className='text-sm text-gray-400'>
+                        Terms & Conditions.
                     </span>
                 </div>
             </div>
