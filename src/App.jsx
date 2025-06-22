@@ -5,8 +5,19 @@ import Hero from "./components/Hero"
 import About from './components/About'
 import Mission from './components/Mission'
 import Footer from './components/Footer'
+import AOS from "aos";  
+import "aos/dist/aos.css"
 
 const App = () => {
+
+  React.useEffect( ()=> {
+    AOS.init({
+      duration: 1200,
+      easing: "ease-in-out"
+   } );
+  }
+
+  )
   return (
     <>
     <div>

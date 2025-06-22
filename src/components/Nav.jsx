@@ -12,7 +12,7 @@ const toggleNavbar =()=> {
     }
 
   return (
-    <div className='fixed top-0 right-0 w-full z-50 bg-black/10 backdrop-blur-sm py-4 sm:py-4 h-20'>
+    <div data-aos="fade-down" className='fixed top-0 right-0 w-full z-50 bg-black/10 backdrop-blur-sm py-4 sm:py-4 h-20'>
         <div className="container">
              <div className="flex items-center justify-between">
                 <div className="flex items-center font-bold text-2xl">
