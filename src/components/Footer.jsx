@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className='bg-gray-800 px-5'>
         <section className='max-w-[1200px] mx-auto'>
-            <div className="grid md:grid-cols-3 py-5">
+            <div className="grid md:grid-cols-3  py-5">
                 {/* 1st col */}
                 <div className='py-8 px-4'>
                     <h1 className='text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3'>Ready To Join</h1>
@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* Sec Col */}
-                <div className='grid grid-cols-3 sm:grid-cols-3 col-span-2 md:pl-10'>
+                <div className='grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10'>
                     <div>
                         <div className='py-8 px-4'>
                             <h1 className='text-xl font-bold mb-3'>Quick Links</h1>
@@ -68,7 +68,7 @@ const Footer = () => {
                       </div>
                       <div className='flex items-start gap-3'>
                         <MdMessage className='text-lg mt-0.5 text-sky-400' />
-                        <p>abc@gmail.com</p>
+                        <p>ab@gmail.com</p>
                      </div>
                      <div className='flex items-start gap-3'>
                        <MdCall className='text-lg mt-0.5 text-sky-400' />
@@ -95,9 +95,7 @@ const Footer = () => {
                             <FaLinkedin className='text-4xl'/>
                         </a>
                     </div>
-                    <span className='text-sm text-gray-400'>
-                        Terms & Conditions.
-                    </span>
+
                 </div>
             </div>
         </section>
