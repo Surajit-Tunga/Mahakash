@@ -74,7 +74,14 @@ const Footer = () => {
                      </div>
                     </div>
                   </div>
-
+                </div>
+            </div>
+            {/* Bottom */}
+            <div className='hidden sm:block'>
+                <div>
+                    <span className='text-sm text-gray-400'>
+                        Copyright &copy; 2025.
+                    </span>
                 </div>
             </div>
         </section>
