@@ -85,13 +85,13 @@ const Footer = () => {
                         Copyright &copy; 2025.
                     </span>
                     <div className='flex items-center justify-center gap-4 pb-4 '>
-                        <a href="#">
+                        <a href="https://www.instagram.com/surajit.tunga/profilecard/?igsh=MnpqdzhsN3QzazR0">
                             <FaInstagram className='text-4xl'/>
                         </a>
-                        <a href="#">
+                        <a href="https://www.facebook.com/profile.php?id=100092186147999">
                             <FaFacebook className='text-4xl'/>
                         </a>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/surajittunga">
                             <FaLinkedin className='text-4xl'/>
                         </a>
                     </div>
