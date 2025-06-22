@@ -3,6 +3,7 @@ import bgVideo from "./assets/earth.mp4"
 import Nav from "./components/Nav"
 import Hero from "./components/Hero"
 import About from './components/About'
+import Mission from './components/Mission'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Hero/>
       </div>
       <About/>
+      <Mission/>
     </div>
     </>
   )
