@@ -22,10 +22,13 @@ Mahakash is a modern web application designed to provide a seamless user experie
 Mahakash/
 ├── public/
 ├── src/
+│   ├── assets/
 │   ├── components/
 │   ├── App.jsx
 │   └── main.jsx
+├── index.html
 ├── package.json
+├── package-lock.json
 ├── tailwind.config.js
 └── vite.config.js
 ```

@@ -15,7 +15,7 @@ const Footer = () => {
                     <p>Get Exclusive <span className='font-bold'> Mentorship</span></p>
                     <br />
                     <div className='flex items-center h-10'>
-                        <input type="text" className='py-1 px-3 w-full h-full focus:outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500 bg-gray-800 border-2 border-gray-200 rounded-md' placeholder='Enter Your Email' />
+                        <input type="email" className='py-1 px-3 w-full h-full focus:outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500 bg-gray-800 border-2 border-gray-200 rounded-md' placeholder='Enter Your Email' />
                         <button className='bg-white text-black px-4 py-2 h-full rounded-md hover:bg-slate-300 transition duration-300 ml-2'>Subscribe</button>
                     </div>
                 </div>
